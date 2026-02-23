@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/reentancy.sol": "reentancy"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/reentancy.sol": {
+			"keccak256": "0x36362989fede9d4d9a6e0d645ea459e6efe3602e79d3b43b4a6338808486b59e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3dd05ecada5daf63b8c0f80ff27322f4339e987f05fae13b9b42679ff276464",
+				"dweb:/ipfs/QmZJtGDnZjbRZiBnpXPiLFhRYMifcUdac7QWyiUK4JkRDK"
+			]
+		}
+	},
+	"version": 1
+}
