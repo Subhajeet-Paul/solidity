@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/receive.sol": "CheckBalance"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/receive.sol": {
+			"keccak256": "0x7a144d00e6a78deeb6ffc9034aa57c9e24c4c1233f4e571de83f6c2395092807",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://30eb4016d493d5ce4d327d4443e4f7393a9a7c3f3d2e6ad9317c487b968140f4",
+				"dweb:/ipfs/QmSKKvYGVLowvfDQu5nQDqA9HbXCeE6vPKNLhiz3iaEaHk"
+			]
+		}
+	},
+	"version": 1
+}

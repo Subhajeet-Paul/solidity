@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "nextStage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stage",
+				"outputs": [
+					{
+						"internalType": "enum Q3.Stage",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/nextEnum.sol": "Q3"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/nextEnum.sol": {
+			"keccak256": "0xb7d8cc2ff10d179e6109dabb42319fac0d4765b30d59ef6ddd0a2525b8ce3521",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be7aba10cb4b442e79004864cd4b651a586ebe9f2db1c95650459958f583aa9b",
+				"dweb:/ipfs/QmUttin8k1s1zocC9P8GE4z4HtQMMYVhZwW5awvsy1LXuG"
+			]
+		}
+	},
+	"version": 1
+}
