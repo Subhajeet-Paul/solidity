@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "lastCaller",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "logCaller",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/call.sol": "Logger"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/call.sol": {
+			"keccak256": "0x5777e7e22957073a0d40406fcedbb90fc45d3577543527f7c1ff02a2219ead97",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://731bf7dc9033d8f5a5fc4ee6a62f40c3a7d95b296cecc9ac3ffcb7c1aa74263d",
+				"dweb:/ipfs/QmWZcnK3vMW4TGDKjdWWdh6B1qSyApF3itriQGXscQn44T"
+			]
+		}
+	},
+	"version": 1
+}
