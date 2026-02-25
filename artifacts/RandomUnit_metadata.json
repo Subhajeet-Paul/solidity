@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "max",
+						"type": "uint256"
+					}
+				],
+				"name": "randomInRange",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/randomUINT.sol": "RandomUnit"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/randomUINT.sol": {
+			"keccak256": "0xf040de9c6b05851db2a676ea5874ef214fc208789a73914656eaca9c896cdc12",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f72fab372568ee22128b5b68056cc81a9a6351eacc8b81e7575859d1eaa6312",
+				"dweb:/ipfs/QmWezFcLxxp3uHAP9BQfJmY2We9jiAtgek4e5B8Uo9TA9s"
+			]
+		}
+	},
+	"version": 1
+}
