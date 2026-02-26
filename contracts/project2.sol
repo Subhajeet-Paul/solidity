@@ -238,12 +238,7 @@ function distributeAssets() internal {
             (totalBalance *
             beneficiaries[i].percentage) / 100;
 
-        (bool success, ) =
-            payable(beneficiary).call{value: amount}("");
-
-        if (!success) {
-            pendingWithdrawals[beneficiary] += amount;
-        }
+        pendingWithdrawals[beneficiary] += amount;
     }
 }
 

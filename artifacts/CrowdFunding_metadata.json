@@ -49,6 +49,16 @@
 						"internalType": "string",
 						"name": "image",
 						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "cancelled",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "withdrawn",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -58,7 +68,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -70,33 +80,28 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					},
-					{
 						"internalType": "string",
-						"name": "_title",
+						"name": "title",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_description",
+						"name": "description",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_target",
+						"name": "target",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_deadline",
+						"name": "deadline",
 						"type": "uint256"
 					},
 					{
 						"internalType": "string",
-						"name": "_image",
+						"name": "image",
 						"type": "string"
 					}
 				],
@@ -115,13 +120,37 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
 				"name": "donateToCampaign",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "donations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -166,14 +195,14 @@
 								"type": "string"
 							},
 							{
-								"internalType": "address[]",
-								"name": "donators",
-								"type": "address[]"
+								"internalType": "bool",
+								"name": "cancelled",
+								"type": "bool"
 							},
 							{
-								"internalType": "uint256[]",
-								"name": "donations",
-								"type": "uint256[]"
+								"internalType": "bool",
+								"name": "withdrawn",
+								"type": "bool"
 							}
 						],
 						"internalType": "struct CrowdFunding.Campaign[]",
@@ -188,26 +217,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
-						"type": "uint256"
-					}
-				],
-				"name": "getDonations",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_id",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -217,11 +227,6 @@
 						"internalType": "address[]",
 						"name": "",
 						"type": "address[]"
-					},
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "view",
@@ -244,11 +249,24 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
 				"name": "refund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -282,11 +300,11 @@
 	},
 	"sources": {
 		"contracts/project.sol": {
-			"keccak256": "0x3ff8226b29fd9ecd495c03a42db24717083c27ca379ed310fe664bdbd76ac124",
-			"license": "UNLICENSED",
+			"keccak256": "0x30a2180ac863ba660eeaf22c4c82d05d4e0e8138f287b2ede597e2a2425c6ae2",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://28d0f26293ff13e9dc5ba98fed0174c694fb218fd757d1858cf69613555bf539",
-				"dweb:/ipfs/QmdasVyCCwJAhHX7BtXrjg67iVzpkhCDLsEM67JGo3LGDh"
+				"bzz-raw://298b28c24b33bf6d0d4ea2b70b120af93e6639997ea1f3dcb676039f24397839",
+				"dweb:/ipfs/QmTBqPuwnB3asZBT67wLVowmuK27MVmg8wX47KwDir6zg8"
 			]
 		}
 	},
